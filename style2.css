@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(218, 212, 203);
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    justify-content: center;
+}
+.container .squaral{
+border: 2px solid black;
+}
+.mole{
+    background-image: url('images/mole.jpg');
+}
